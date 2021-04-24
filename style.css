@@ -1,0 +1,25 @@
+body {
+    font-family:"Tw Cen MT", "Century Gothic", Arial;
+    background-color: FAE6E7;
+}
+
+.title {
+    margin-top: 0.5em;
+    color: F191AC;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 0.5em;
+    flex: 0 1 calc(10%);
+}
+
+.avoid-clicks {
+    pointer-events: none;
+  }
